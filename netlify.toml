@@ -15,6 +15,12 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
-
-  [plugins.inputs]
-    record = true
+  package = "@algolia/netlify-plugin-crawler"
+  
+[plugins.inputs]
+   record = true
+   branches = ['main']
+   disabled = true
+   pathPrefix = "/blog"
+   customDomain = "example.com"
+   renderJavaScript = true
