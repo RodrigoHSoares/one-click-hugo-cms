@@ -19,7 +19,7 @@
   
 [plugins.inputs]
    record = true
-   ranches = ['main', 'develop', 'feat/add-algolia']
+   branches = ['main', 'develop', 'feat/add-algolia']
    disabled = true
    pathPrefix = "/blog"
    customDomain = "example.com"
