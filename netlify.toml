@@ -19,8 +19,5 @@
 
 [plugins.inputs]
   record = true
-  branches = ['search-engine']
-  disabled = true
-  pathPrefix = ""
-  customDomain = "fabulous-hummingbird-935c70.netlify.app"
-  renderJavaScript = true
+  branches = ['master', 'search-engine']
+  
