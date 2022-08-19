@@ -15,6 +15,12 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+  package = "@algolia/netlify-plugin-crawler"
 
-  [plugins.inputs]
-    record = true
+[plugins.inputs]
+  record = true
+  branches = ['search-engine']
+  disabled = true
+  pathPrefix = "/blog"
+  customDomain = "fabulous-hummingbird-935c70.netlify.app"
+  renderJavaScript = true
