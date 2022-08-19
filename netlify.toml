@@ -21,6 +21,6 @@
   record = true
   branches = ['search-engine']
   disabled = true
-  pathPrefix = "/blog"
+  pathPrefix = ""
   customDomain = "fabulous-hummingbird-935c70.netlify.app"
   renderJavaScript = true
