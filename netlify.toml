@@ -19,5 +19,9 @@
 
 [plugins.inputs]
   record = true
-  branches = ['master', 'search-engine']
-  
+
+[[plugins]]
+  package = "@algolia/netlify-plugin-crawler"
+
+[plugins.inputs]    
+  branches = ['master', 'search-engine']  
