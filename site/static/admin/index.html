@@ -3,9 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+  <script type="text/javascript">
+    algoliasearchNetlify({
+      appId: 'CYUNWI22UW',
+      apiKey: '<a674e5101605c09da9c668c7a677a583>',
+      siteId: '17bd9417-7c87-4864-ad6b-1ca18b2dd691',
+      branch: 'search-engine',
+      selector: 'div#search',
+    });
+  </script>
   <title>Content Manager</title>
-
   <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
