@@ -15,7 +15,7 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
-  package = "@algolia/netlify-plugin-crawler"
+  
 
 [plugins.inputs]
   record = true
