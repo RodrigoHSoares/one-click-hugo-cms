@@ -8,17 +8,7 @@
     {{ block "main" . }}{{ end }}
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-    <div class="container">
-      <div class="row mt-3">
-          <div class="col pt-3 mkd">
-              {{ .Content }}
-          </div>
-      </div>
-      {{ partial "blog/meta.html" . }}
-      {{ partial "blog/nextprev.html" . }}
-      {{ partial "blog/comments.html" . }}
-      {{ partial "blog/related.html" . }}
-    </div>
+
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
       <script src="{{ relURL . }}"></script>
