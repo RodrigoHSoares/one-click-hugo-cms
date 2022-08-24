@@ -7,8 +7,6 @@
 
     {{ block "main" . }}{{ end }}
 
-    {{ partial "comments.html" . }}
-    
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
     {{ $script := .Site.Data.webpack.main }}
